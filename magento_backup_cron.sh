@@ -32,7 +32,7 @@ BACKUP_DB_DIR=$HOME/backup/db
 BACKUP_MEDIA_DIR=$HOME/backup/media
 BACKUP_CODE_DIR=$HOME/backup/code
 
-# For cleanup, the number of backups to keep, so to delete the reset as they will take disk space
+# For cleanup, the number of backups to keep, so to delete the rest as they will take disk space
 # default is to keep 3 copies, it can be edited below
 BACKUP_TO_KEEP=3
 

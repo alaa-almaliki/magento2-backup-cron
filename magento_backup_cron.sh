@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# @author Alaa Al-Maliki <alaa.almaliki@gmail.com>
+#
+#
 # This script can be used as a cron to back up magento db, media and code.
 # Although it is tested and works without exception,
 # the script can not take any responsibility for any issues caused by it's usage.

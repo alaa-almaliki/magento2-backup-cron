@@ -26,7 +26,7 @@ CURRENT_MAINTENANCE_STATUS=$(${PHP} ${MAGENTO_BIN} maintenance:status | grep 'St
 # to disable any of the backups, simply assign the variable to false
 CAN_BACKUP_DB=true
 CAN_BACKUP_MEDIA=true
-CAN_BACKUP_CODE=true
+CAN_BACKUP_CODE=false
 
 BACKUP_DB_DIR=$HOME/backup/db
 BACKUP_MEDIA_DIR=$HOME/backup/media

@@ -4,7 +4,7 @@ A script to run magento backups
 # Installation
 - Download the script `wget https://raw.githubusercontent.com/alaa-almaliki/magento2-backup-cron/master/magento_backup_cron.sh`
 - Change mode of the script to be executable `chmod +x magento_backup_cron.sh`
-- Add cron entry, example: `0 1 * * * /bin/bash bash path/to/magento_backup_cron.sh`
+- Add cron entry, example: `0 1 * * * /bin/bash path/to/magento_backup_cron.sh`
 # Documentation
 Worth noting here is that the backup process sets the maintenance flag, so the site is not accessible during the backup process.
 
